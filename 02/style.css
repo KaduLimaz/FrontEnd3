@@ -1,0 +1,59 @@
+.container {
+  background-color: beige;
+  width: 600px;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.circulo-azul {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.circulo-vermelho {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(255, 4, 4);
+}
+
+/* -------atividade 2-------- */
+.container-quadrado{
+    display: flex;
+    justify-content: space-between;
+}
+.container-2 {
+  background-color: beige;
+  width: 600px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.quadrado-azul-1 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  justify-self: end;
+  
+}
+
+.quadrado-azul-2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  align-self: flex-end;
+}
+
+.circulo-vermelho-2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(255, 4, 4);
+  align-self: flex-end;
+}
